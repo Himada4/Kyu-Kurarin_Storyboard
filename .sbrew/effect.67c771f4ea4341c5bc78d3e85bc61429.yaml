@@ -1,0 +1,17 @@
+﻿FormatVersion: 7
+Name: "Stare 1"
+Script: "Stare"
+Config:
+  stare:
+    Type: "System.Boolean"
+    Value: "True"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random seed"
+Layers:
+  c122236e011e4b94bf6cd36c3c18c37a:
+    Name: "stare"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes

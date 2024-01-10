@@ -1,0 +1,17 @@
+﻿FormatVersion: 7
+Name: "Bed 2"
+Script: "Bed"
+Config:
+  bed:
+    Type: "System.Boolean"
+    Value: "False"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random seed"
+Layers:
+  3aad354fd7e84277873eeb3a3535470d:
+    Name: "bed"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes

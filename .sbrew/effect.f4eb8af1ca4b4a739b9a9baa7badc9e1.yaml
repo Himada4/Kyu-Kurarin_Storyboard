@@ -1,0 +1,26 @@
+﻿FormatVersion: 7
+Name: "Background 1"
+Script: "Background"
+Config:
+  BackgroundPath:
+    Type: "System.String"
+    Value: "sb/pink.png"
+  StartTime:
+    Type: "System.Int32"
+    Value: "0"
+  EndTime:
+    Type: "System.Int32"
+    Value: "216067"
+  Opacity:
+    Type: "System.Double"
+    Value: "1"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random seed"
+Layers:
+  676a671cae7a417bbc3afa40fe4f0e3c:
+    Name: ""
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes

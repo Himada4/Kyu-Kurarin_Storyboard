@@ -1,0 +1,93 @@
+﻿FormatVersion: 7
+Name: "Credit 1"
+Script: "Credit"
+Config:
+  SubtitlesPath:
+    Type: "System.String"
+    Value: "credit.ass"
+  FontName:
+    Type: "System.String"
+    Value: "framboiseB.ttf"
+  SpritesPath:
+    Type: "System.String"
+    Value: "sb/c"
+  FontSize:
+    Type: "System.Int32"
+    Value: "65"
+  FontScale:
+    Type: "System.Single"
+    Value: "0.5"
+  FontColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "1,1,1,1"
+  FontStyle:
+    Type: "System.Int32"
+    Value: "0"
+    AllowedValues:
+      Regular: "0"
+      Bold: "1"
+      Italic: "2"
+      Underline: "4"
+      Strikeout: "8"
+  GlowRadius:
+    Type: "System.Int32"
+    Value: "0"
+  GlowColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "1,1,1,0.555"
+  AdditiveGlow:
+    Type: "System.Boolean"
+    Value: "False"
+  OutlineThickness:
+    Type: "System.Int32"
+    Value: "0"
+  OutlineColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "1,1,1,0"
+  ShadowThickness:
+    Type: "System.Int32"
+    Value: "0"
+  ShadowColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "1,1,1,1"
+  Padding:
+    Type: "OpenTK.Vector2"
+    Value: "0,0"
+  SubtitleY:
+    Type: "System.Single"
+    Value: "400"
+  PerCharacter:
+    Type: "System.Boolean"
+    Value: "False"
+  TrimTransparency:
+    Type: "System.Boolean"
+    Value: "True"
+  EffectsOnly:
+    Type: "System.Boolean"
+    Value: "False"
+  Debug:
+    Type: "System.Boolean"
+    Value: "False"
+  Origin:
+    Type: "System.Int32"
+    Value: "4"
+    AllowedValues:
+      TopLeft: "0"
+      TopCentre: "1"
+      TopRight: "2"
+      CentreLeft: "3"
+      Centre: "4"
+      CentreRight: "5"
+      BottomLeft: "6"
+      BottomCentre: "7"
+      BottomRight: "8"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random seed"
+Layers:
+  057575e08b814209b219d33fd566f1a3:
+    Name: "credit"
+    OsbLayer: Foreground
+    DiffSpecific: Yes
+    Visible: Yes
